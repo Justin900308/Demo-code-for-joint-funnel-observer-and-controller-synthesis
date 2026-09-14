@@ -20,6 +20,8 @@ plt.rcParams.update({
     "xtick.labelsize": TICK_FONT_SIZE,
     "ytick.labelsize": TICK_FONT_SIZE,
     "legend.fontsize": LEGEND_FONT_SIZE,
+    "pdf.fonttype": 42,  # Uses TrueType fonts (Type 42) instead of Type 3
+    "ps.fonttype": 42,  # Same for PostScript outputs
 })
 
 from util import Integrator as it
